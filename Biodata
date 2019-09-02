@@ -1,0 +1,28 @@
+
+package javaapplication10;
+
+import java.util.Scanner;
+
+public class JavaApplication10 {
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+  String name,Gpa;
+   int id,mobile;
+   
+     System.out.print("Enter your name :");
+          name=input.nextLine();
+     System.out.print("Enter your Gpa :");
+     Gpa=input.nextLine();
+     System.out.print("Enter your Id :");
+          id=input.nextInt();
+     System.out.print("Enter your Mobile number :");
+     mobile=input.nextInt();
+     System.out.println("Name is            : "+name);
+     System.out.println("Gpa is             : "+Gpa);
+     System.out.println("Id is              : "+id);
+     System.out.println("Mobile number is   : "+mobile);
+
+    }
+    
+}
